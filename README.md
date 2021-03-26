@@ -1,8 +1,8 @@
-# TODO: Add link to mitogen issue
+# Minimal configuration to show [mitogen-hq/mitogen#823](https://github.com/mitogen-hq/mitogen/issues/823)
 
-This little github project shows a bug in mitogen 0.3.0rc when used with docker-compose
+This little github project shows a bug in `mitogen 0.3.0rc1` when used with `docker-compose`
 
-## Setup
+## Steps to reproduce
 
 ```bash
 ./run.sh
