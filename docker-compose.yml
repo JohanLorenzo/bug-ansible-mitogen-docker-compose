@@ -1,0 +1,4 @@
+version: '2'
+services:
+  some-debian-container:
+    image: debian

@@ -1,0 +1,4 @@
+ansible
+docker  # Used by the ansible module called "community.docker.docker_compose"
+docker-compose # Same
+mitogen>=0.3.0rc1   # We need at least v0.3.0 to support the latest ansible

@@ -1,0 +1,9 @@
+---
+- name: "Reproduce mitogen + docker-compose bug"
+  hosts: localhost
+  vars: {}
+  tasks:
+    - name: Start docker-compose
+      community.docker.docker_compose:
+        project_src: "."
+        state: present
